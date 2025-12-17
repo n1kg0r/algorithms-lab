@@ -4,9 +4,9 @@
 
 1. Arrays & Sequences
 
-- dynamic arrays
+  - dynamic arrays
 
-- amortized analysis
+  - amortized analysis
 
 - resize strategies
 
