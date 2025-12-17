@@ -1,78 +1,178 @@
-# algorithms-handbook
+# algorithms-lab
 
-# Volume 1 — Algorithms DSA
+# Volume 1 — Data Structures (from scratch)
 
-02 — Data Structures (from scratch)
+1. Arrays & Sequences
 
-    A. Arrays
-       - dynamic arrays
-       - implementing push/pop/resize
+- dynamic arrays
 
-    B. Linked Lists
-       - singly/doubly linked lists
-       - insert, delete, reverse
+- amortized analysis
 
-    C. Stacks & Queues
-       - array implementation
-       - linked list implementation
-       - circular buffer queue
+- resize strategies
 
-    D. Hash Tables
-       - hash functions
-       - linear/quadratic probing
-       - chaining
+- cache friendliness (intuition)
 
-    E. Trees & Heaps
-       - binary tree / BST
-       - AVL tree (optional)
-       - binary heap: min/max
-       - priority queue
+2. Linked Structures
 
-03 — Algorithms
+- singly / doubly linked lists
 
-    A. Sorting
-       - bubble/insertion/selection
-       - merge sort
-       - quick sort
-       - heap sort
+- tradeoffs vs arrays
 
-    B. Divide & Conquer
-       - binary search
-       - mergesort recap
-       - quickselect
+- reversing, merging
 
-    C. Dynamic Programming
-       - Fibonacci
-       - knapsack
-       - LIS
-       - edit distance
+3. Stacks & Queues
 
-    D. Greedy Algorithms
-       - interval scheduling
-       - Huffman coding
+- stack via array
 
-04 — Graph Theory
-    • representing graphs (adj list, matrix)
-    
-    A. Graph Traversal
-       - BFS
-       - DFS
-       - connected components
+- queue via circular buffer
 
-    B. Shortest Path Algorithms
-       - Dijkstra
-       - Bellman-Ford
-       - Floyd–Warshall
+- deque
 
-    C. Classic Problems
-       - cycle detection
-       - bipartite check
-       - topological sort
-       - sailor/river crossing puzzles
+- applications (parsing, BFS)
 
-05 — Fourier & FFT (Bridge to Vol.2)
-    • intro to Fourier series (discrete)
-    • convolution theorem
-    • implementing FFT (Cooley–Tukey)
-    • simple audio filtering using FFT
-      (offline processing)
+4. Hash Tables
+
+- hash functions
+
+- collisions
+
+- probing vs chaining
+
+- complexity intuition
+
+5. Trees & Heaps
+
+- binary trees
+
+- BST
+
+- heaps
+
+- priority queues
+
+- tree vs heap mental models
+
+# Volume 2 — Core Algorithms
+
+6. Sorting
+
+- quadratic sorts (why they exist)
+
+- merge sort
+
+- quicksort
+
+- heap sort
+
+- stability & in-place tradeoffs
+
+7. Divide & Conquer
+
+- binary search
+
+- recursion trees
+
+- quickselect
+
+- master theorem (visual)
+
+8. Dynamic Programming
+
+- memoization vs tabulation
+
+- Fibonacci (state explosion)
+
+- knapsack
+
+- LIS
+
+- edit distance
+
+- DP on DAGs
+
+9. Greedy Algorithms
+
+- interval scheduling
+
+- activity selection
+
+- Huffman coding
+
+- when greedy fails
+
+# Volume 3 — Graphs
+
+10. Graph Representations
+
+- adjacency list vs matrix
+
+- memory & runtime tradeoffs
+
+11. Traversal
+
+- BFS
+
+- DFS
+
+- connected components
+
+- recursion vs stack
+
+12. Shortest Paths
+
+- Dijkstra
+
+- Bellman–Ford
+
+- Floyd–Warshall
+
+- negative cycles intuition
+
+13. Classic Graph Problems
+
+- cycle detection
+
+- bipartite check
+
+- topological sort
+
+- DAG DP
+
+# Volume 4 — Algorithms as Math 
+
+14. Fourier Intuition
+
+- rotating vectors
+
+- projection
+
+- frequency domain
+
+- signal reconstruction
+
+15. Discrete Fourier Transform
+
+- DFT from definition
+
+- convolution
+
+- circular convolution
+
+16. Fast Fourier Transform
+
+- divide & conquer
+
+- Cooley–Tukey
+
+- bit reversal
+
+- complexity leap (N² → N log N)
+
+17. Applications
+
+- signal filtering
+
+- smoothing
+
+- audio intuition (offline)
+
